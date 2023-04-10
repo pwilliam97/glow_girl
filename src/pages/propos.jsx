@@ -7,14 +7,14 @@ import Header from '../components/header'
 // Importation du CSS 
 import '../styles/main/main.css'
 
-function Home(){
+function Propos(){
 
     return (
         <main>
             <Header/>
-            <p>Ceci est la page d'acceuil</p>
+            <p>Ceci est la page A propos de moi</p>
         </main>
     )
 }
 
-export default Home
+export default Propos
