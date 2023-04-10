@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/glow_girl/static/css/main.f097ea73.css",
+    "main.js": "/glow_girl/static/js/main.5eae1836.js",
+    "static/media/logo.png": "/glow_girl/static/media/logo.61ace5e6149a8c4470db.png",
+    "index.html": "/glow_girl/index.html",
+    "main.f097ea73.css.map": "/glow_girl/static/css/main.f097ea73.css.map",
+    "main.5eae1836.js.map": "/glow_girl/static/js/main.5eae1836.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f097ea73.css",
+    "static/js/main.5eae1836.js"
+  ]
+}
