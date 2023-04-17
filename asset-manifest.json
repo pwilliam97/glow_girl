@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/glow_girl/static/css/main.a28857fb.css",
-    "main.js": "/glow_girl/static/js/main.dd8c26e1.js",
+    "main.css": "/glow_girl/static/css/main.fb796f10.css",
+    "main.js": "/glow_girl/static/js/main.0bfd6a67.js",
     "static/media/logo.png": "/glow_girl/static/media/logo.b062c2747e2f48180693.png",
     "index.html": "/glow_girl/index.html",
-    "main.a28857fb.css.map": "/glow_girl/static/css/main.a28857fb.css.map",
-    "main.dd8c26e1.js.map": "/glow_girl/static/js/main.dd8c26e1.js.map"
+    "main.fb796f10.css.map": "/glow_girl/static/css/main.fb796f10.css.map",
+    "main.0bfd6a67.js.map": "/glow_girl/static/js/main.0bfd6a67.js.map"
   },
   "entrypoints": [
-    "static/css/main.a28857fb.css",
-    "static/js/main.dd8c26e1.js"
+    "static/css/main.fb796f10.css",
+    "static/js/main.0bfd6a67.js"
   ]
 }
