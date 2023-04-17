@@ -1,20 +1,23 @@
 // Importation de REACT
 import React from 'react'
 
+
 //Importation des Components
-import Header from '../components/header'
+import Cardshome from '../components/Cards_home'
+
+//Importation des assets
+import Categorie from '../assets/categorie.json'
 
 // Importation du CSS 
-import '../styles/main/main.css'
+import '../styles/container/container.css'
 
 function Home(){
 
     return (
         <main>
-            <Header/>
-            <p>Ceci est la page d'acceuil</p>
+            <div>{Categorie.map((item) => <Cardshome item = {item} key={item.id}/>)}</div>            
         </main>
-    )
+    ) 
 }
 
 export default Home

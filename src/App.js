@@ -2,22 +2,30 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
 
+//Importation des Components
+import Header from './components/Header'
+
 //Importation des Pages
 import Home from './pages/home'
 import Propos from './pages/propos'
 import Contact from './pages/contact'
-
+import Service from './pages/service'
+ 
 //Importation du CSS 
 import './styles/general/general.css'
 
-
 function App() {
   return (
+    <div id="container">
+      <Header/>
       <Routes>
-          <Route path="/glow_girl/" element={<Home/>}/>
-          <Route path="/A_propos/" element={<Propos/>}/>
-          <Route path="/Contact/" element={<Contact/>}/>
+        <Route path="/glow_girl/" element={<Home/>}/>
+        <Route path="/A_propos/" element={<Propos/>}/>
+        <Route path="/Contact/" element={<Contact/>}/>
+         <Route path="/Service/:serviceId" element={<Service/>}/>
       </Routes>
+    </div>
+
   );
 }
 

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "7g7pb22p",
+        "title": "Épilations",
+        "offre": [
+            {
+                "prestation": "Sourcils",
+                "prix": "5€"
+            },
+            {
+                "prestation": "Assiettes",
+                "prix": "5€"
+            },
+            {
+                "prestation": "Bras",
+                "prix": "8€"
+            },
+            {
+                "prestation": "Maillot simple",
+                "prix": "7€"
+            },
+            {
+                "prestation": "Maillot échancré",
+                "prix": "9€"
+            },
+            {
+                "prestation": "Demi-jambes",
+                "prix": "7€"
+            },
+            {
+                "prestation": "Jambes entières",
+                "prix": "15€"
+            }
+        ]
+    },
+    {
+        "id": "9wu5s44h",
+        "title":"Soins du visage",
+        "offre": [
+            {
+                "prestation": "Démaquillage, gommage, masque, modelage",
+                "prix": "20€"
+            }
+        ]
+    },
+    {
+        "id": "h3194jdx",
+        "title":"Pose de vernis semi-permanent",
+        "offre": [
+            {
+                "prestation": "Main OU pied",
+                "prix": "10€"
+            },
+            {
+                "prestation": "Main ET pied",
+                "prix": "15€"
+            }
+        ]
+    },
+    {
+        "id": "3tox1n99",
+        "title":"Sois des mains ou Soins des pieds",
+        "offre": [
+            {
+                "prestation": "Gommage, Masque, Modelage",
+                "prix": "15€"
+            }
+        ]
+    },
+    {
+        "id": "i315bk1a",
+        "title":"Beauté des mains",
+        "offre": [
+            {
+                "prestation": "Démaquillage des ongles (si vernis classique), coupe, limages et trempage des ongles, cuticules",
+                "prix": "8€"
+            },
+            {
+                "prestation": "Pose de vernis classique",
+                "prix": "3€"
+            }
+        ]
+    },
+    {
+        "id": "08kz90tc",
+        "title":"Beauté des pieds",
+        "offre": [
+            {
+                "prestation": "Démaquillage des ongles (si vernis classique), coupe, limages et trempage des ongles, cuticules, râpe à pieds",
+                "prix": "9€"
+            },
+            {
+                "prestation": "Pose de vernis classique",
+                "prix": "3€"
+            }
+        ]
+    }
+]

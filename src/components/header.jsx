@@ -13,8 +13,8 @@ function Header(){
         <header>
             <Link to="/glow_girl/"><img src={Logo} alt={Logo} id='logo'/></Link>
             <ul className='header_list'>
-                <Link to="/A_propos/"><li>A Propos de moi</li></Link>
-                <Link to="/Contact/"><li>Contact</li></Link>
+                <Link to="/A_propos/"><li>À propos de moi</li></Link>
+                <Link to="/Contact/"><li className='header_list_contact'>Contact</li></Link>
             </ul>
         </header>
     )
