@@ -18,7 +18,9 @@ function Service(){
 
     return (
         <main>
-            {service.offre.map((item) => <Cardspresta item = {item} key={item.id}/>)}    
+            <div>
+                {service.offre.map((item) => <Cardspresta item = {item} key={item.id}/>)}   
+            </div> 
         </main>
     )
 }

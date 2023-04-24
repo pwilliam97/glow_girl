@@ -9,7 +9,7 @@ function Cards(props){
 
     return (
         <Link to={`/Service/${item.id}`}>
-            <h1>{item.title}</h1>
+            <li>{item.title}</li>
         </Link>  
     )
 }
