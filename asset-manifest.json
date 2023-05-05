@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/glow_girl/static/css/main.fb796f10.css",
-    "main.js": "/glow_girl/static/js/main.1eec3784.js",
+    "main.css": "/glow_girl/static/css/main.f39e6060.css",
+    "main.js": "/glow_girl/static/js/main.b18fc3b8.js",
     "static/media/zen.jpg": "/glow_girl/static/media/zen.38e184b472e5ce95b647.jpg",
     "static/media/logo.png": "/glow_girl/static/media/logo.b062c2747e2f48180693.png",
     "index.html": "/glow_girl/index.html",
-    "main.fb796f10.css.map": "/glow_girl/static/css/main.fb796f10.css.map",
-    "main.1eec3784.js.map": "/glow_girl/static/js/main.1eec3784.js.map"
+    "main.f39e6060.css.map": "/glow_girl/static/css/main.f39e6060.css.map",
+    "main.b18fc3b8.js.map": "/glow_girl/static/js/main.b18fc3b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb796f10.css",
-    "static/js/main.1eec3784.js"
+    "static/css/main.f39e6060.css",
+    "static/js/main.b18fc3b8.js"
   ]
 }
