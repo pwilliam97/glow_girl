@@ -7,7 +7,7 @@ import Header from './components/Header'
 
 //Importation des Pages
 import Home from './pages/home'
-import Propos from './pages/propos'
+import Prestation from './pages/prestation'
 import Contact from './pages/contact'
 import Service from './pages/service'
  
@@ -20,7 +20,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/glow_girl/" element={<Home/>}/>
-        <Route path="/A_propos/" element={<Propos/>}/>
+        <Route path="/Prestation/" element={<Prestation/>}/>
         <Route path="/Contact/" element={<Contact/>}/>
          <Route path="/Service/:serviceId" element={<Service/>}/>
       </Routes>
