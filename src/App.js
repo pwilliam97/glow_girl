@@ -20,9 +20,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/glow_girl/" element={<Home/>}/>
-        <Route path="/Prestation/" element={<Prestation/>}/>
+        <Route path="/Service/" element={<Service/>}/>
         <Route path="/Contact/" element={<Contact/>}/>
-         <Route path="/Service/:serviceId" element={<Service/>}/>
+         <Route path="/Prestation/:serviceId" element={<Prestation/>}/>
       </Routes>
     </div>
 

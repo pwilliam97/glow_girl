@@ -3,7 +3,7 @@ import React from 'react'
 
 // Importation du CSS 
 import '../styles/container/container.css'
-import '../styles/home/home.css'
+import '../styles/styles_pages/home/home.css'
 
 function Home(){
 

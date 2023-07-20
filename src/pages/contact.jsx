@@ -8,12 +8,13 @@ import Zen from '../assets/zen.jpg'
 
 // Importation du CSS 
 import '../styles/container/container.css'
+import '../styles/styles_pages/contact/contact.css'
 
 function Contact(){
 
     return (
         <main>
-            <div>
+            <div className='formulaire'>
                 <img src={Zen} alt="bien-être"/>
                 <h2>Pour prendre vos rendez-vous</h2>
                 <h3>Contactez moi par :</h3>

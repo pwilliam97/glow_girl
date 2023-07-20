@@ -1,8 +1,9 @@
 // Importation de REACT
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 //Importation des Components
-import Cardshome from '../components/Cards_home'
+import Presta from '../components/Cards_presta'
 
 //Importation des assets
 import Categorie from '../assets/categorie.json'
@@ -12,10 +13,15 @@ import '../styles/container/container.css'
 
 function Prestation(){
 
+    const {serviceId} = useParams();
+    const service = Categorie.find((item) => item.id === serviceId)
+
     return (
         <main>
-            <div>{Categorie.map((item) => <Cardshome item = {item} key={item.id}/>)}</div>            
-        </main>      
+            <div>
+                {service.offre.map((item) => <Presta item = {item} key={item.id}/>)}   
+            </div> 
+        </main>
     )
 }
 
